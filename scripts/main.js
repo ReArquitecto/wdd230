@@ -9,4 +9,4 @@ document.querySelector('.copyright-year').innerHTML = '&copy;' + year;
 
 let currentdate = document.lastModified;
 
-document.querySelector('.last-updated').innerHTML = currentdate;
+document.querySelector('.last-updated').innerHTML = 'Last Updated on ' + currentdate;
