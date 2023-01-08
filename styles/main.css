@@ -1,3 +1,24 @@
-a {
-    color: navy
+:root {
+    --blue1: #0A67BE; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: var(--blue1);
+}
+
+footer {
+    background-color: var(--blue1);
+}
+
+@media screen and (max-width: 768px) {
+    body div {
+        width: 100%;
+    }
 }

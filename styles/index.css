@@ -1,0 +1,24 @@
+body div {
+    margin-right: auto;
+    width: 700px;
+    margin-left: auto;
+}
+
+.index-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#profile-pic {
+    width: 200px;
+    border-radius: 3px;
+    margin-right: 100%;
+    margin-left: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .index-header {
+        flex-direction: column;
+    }
+}

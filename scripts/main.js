@@ -5,7 +5,7 @@ let year = date.getFullYear();
 console.log(year);
 console.log(date);
 
-document.querySelector('h1').innerHTML = '&copy;' + year;
+document.querySelector('.copyright-year').innerHTML = '&copy;' + year;
 
 let currentdate = document.lastModified;
 
