@@ -25,6 +25,15 @@ body div {
     margin-bottom: 10px;
 }
 
+#link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+
 @media screen and (max-width: 768px) {
     .index-header {
         flex-direction: column;

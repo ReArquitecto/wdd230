@@ -1,0 +1,27 @@
+#design-principle-section {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+.design-principle-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.design-principle-card h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
