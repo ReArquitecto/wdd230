@@ -1,13 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+}
 #design-principle-section {
     padding: 0;
     margin: 0;
     background-color: #f5f5f5;
     padding: 50px 0;
 }
-.design-principle-card {
+#design-principle-section {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexy p {
+    width: 90%;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.flexy img {
+    margin : 0 auto;
+    margin-bottom: 25px;
+}
+
+.design-principle-card {
+    max-width: 500px;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -15,7 +45,6 @@
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-
 }
 
 .design-principle-card h3 {
@@ -23,5 +52,91 @@
     font-weight: 600;
     margin-bottom: 10px;
     text-align: center;
+    
+}
+
+.design-principle-img {
+    width: 90%;
+    margin-right: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: rgb(36, 130, 188);
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+    #design-principle-section
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .design-principle-card {
+        flex-direction: row;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .design-principle-card h3 {
+        text-align: left;
+    }
+
+    .design-principle-img {
+        width: 50%;
+        margin-right: 6%;
+    }
+
+    .flexy {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .design-principle-card {
+        max-width: 700px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    
+    }
+
+
+}
+
+@media screen and (min-width: 1540px) {
+    .design-principle-card {
+        max-width: 700px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        height: 400px;
+    
+    }
+
+    .flexy {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
     
 }
