@@ -1,53 +1,67 @@
-/* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
+/* ---------NAV BAR-----------*/
+
+/* mobile */
+#mobile-nav {
+    display: inline;
   }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
+
+.nav {
+    background-color: #1e69b8;
+  }
+#in-menu-links {
+    display: none;
+}
+#logo-and-mobile-menu {
+    display: flex; 
+    flex-direction: row;
+}
+#mobile-logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* larger screen*/
+
+  #large-screen-nav {
     display: none;
   }
-  
+
+/*mobile and larger screen*/
   /* Style navigation menu links */
-  .topnav a {
-    color: white;
+  .nav a {
+    color: rgb(255, 255, 255);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
+
   /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #ddd;
+  .nav a:hover {
+    background-color: rgb(150, 150, 150);
     color: black;
   }
-  
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #04AA6D;
+    background-color: #dd295f;
     color: white;
   }
 
-  header div section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  #logo {
   }
 
-  @media screen and (max-width: 600px) {
-    header div section {
+/* ---------Media Queries-----------*/
+  @media screen and (min-width: 768px) {
+    #mobile-nav {
       display: none;
     }
+    #large-screen-nav {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
   }
+  
