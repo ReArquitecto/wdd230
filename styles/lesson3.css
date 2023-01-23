@@ -1,66 +1,18 @@
-/* ---------NAV BAR-----------*/
 
-/* mobile */
-#mobile-nav {
-    display: inline;
-  }
-
-.nav {
-    background-color: #1e69b8;
-  }
-#in-menu-links {
-    display: none;
+header, main, footer {
+    font-size: 1.2rem;
 }
-#logo-and-mobile-menu {
-    display: flex; 
-    flex-direction: row;
-}
-#mobile-logo, #large-screen-logo {
-    margin-left: auto;
-    margin-right: auto;
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* larger screen*/
-
-  #large-screen-nav {
-    display: none;
-  }
-
-/*mobile and larger screen*/
-  /* Style navigation menu links */
-  .nav a {
-    color: rgb(255, 255, 255);
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* Add a grey background color on mouse-over */
-  .nav a:hover {
-    background-color: rgb(150, 150, 150);
-    color: black;
-  }
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #003c5c;
-    color: white;
-  }
-
-/* ---------Media Queries-----------*/
-  @media screen and (min-width: 768px) {
-    #mobile-nav {
-      display: none;
-    }
-    #large-screen-nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    #large-screen-logo {
-        margin-left: calc(100vw - 80vw);
-    }
-    
-  }
-  
+h1 {
+    color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
