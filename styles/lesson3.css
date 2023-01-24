@@ -31,6 +31,37 @@ h1 {
     margin-bottom: 0;
     object-fit: cover;
 }
+/* Personas Section */
+.personas {
+    background-color: #faebd7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.personas div {
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.personas div img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.personas div p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
 /* Color Palette Section */
 #color-palet {
