@@ -1,0 +1,48 @@
+:root {
+    --blue1: #0A67BE;
+    --blue2: #003F76;
+    --yellow1: #fffb00;
+    --tan1: #faebd7;
+    --gray1: #333333;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color : var(--gray1);
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+span {
+    color: var(--blue1);
+}
+
+@media screen and (max-width: 768px) {
+
+}

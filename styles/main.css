@@ -1,12 +1,9 @@
 :root {
-    --blue1: #0A67BE; 
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+    --blue1: #0A67BE;
+    --blue2: #003F76;
+    --yellow1: #fffb00;
+    --tan1: #faebd7;
+    --gray1: #333333;
 }
 
 header {
