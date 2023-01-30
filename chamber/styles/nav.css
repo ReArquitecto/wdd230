@@ -5,15 +5,20 @@
   }
 
 #nav {
+    position: fixed;
+    width : 100%;
+    min-height: 3rem;
     background-color: var(--blue1);
     padding: 1px 1px 1px 1px;
   }
+
 #in-menu-links {
     display: none;
 }
 #logo-and-mobile-menu {
     display: flex; 
     flex-direction: row;
+    margin-top: .7rem;
 }
 #mobile-logo {
     margin-left: auto;

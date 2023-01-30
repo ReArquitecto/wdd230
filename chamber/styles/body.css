@@ -42,7 +42,3 @@ p {
 span {
     color: var(--blue1);
 }
-
-@media screen and (max-width: 768px) {
-
-}
