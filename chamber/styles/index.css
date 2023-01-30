@@ -81,37 +81,11 @@ main > div > div > div {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #event-index {
-        grid-column: 1;
-    }
-    #weather-index {
-        grid-column: 2;
-    }
-    #spotlight-index {
-        grid-column: 2;
-    }
-    #join-index {
-        grid-column: 2;
-    }
+    
 }
 
 @media screen and (min-width: 1250px) {
     .grid {
         grid-template-columns: 1fr 2fr 1fr;
-    }
-    #event-index {
-        grid-column: 2;
-    }
-    #spotlight-index {
-        grid-column: 3;
-    }
-    #join-index {
-        grid-column: 3;
-    }
-    #release-index {
-        grid-column: 2;
-    }
-    #weather-index {
-        grid-column: 1;
     }
 }
