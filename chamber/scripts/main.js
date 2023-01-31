@@ -1,17 +1,14 @@
 //get current year
 let date = new Date();
+let day = date.getDate();
+
+let month = date.getMonth();
 let year = date.getFullYear();
 
 
 console.log(year);
 console.log(date);
 
-
-document.querySelector('.copyright-year').innerHTML = '&copy;' + year;
-
 let currentdate = document.lastModified;
 
-document.querySelector('.last-updated').innerHTML = 'Last Updated on ' + currentdate;
-
-
-document.querySelector('.current-date').innerHTML = year;
+document.querySelector('.current-date').innerHTML = month + "-" + day + "-" + year;
