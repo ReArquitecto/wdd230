@@ -9,7 +9,7 @@ h1 {
     margin-left: 1.5rem;
     margin-top: 5rem;
 }
-main > div > div:has(h2) {
+main > div > div {
     margin: 1.5rem;
     border: .2rem solid var(--blue1);
     border-radius: .2rem;
