@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="styles/body.css">
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/index.cs">
+    <link rel="stylesheet" href="styles/index.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script defer src="scripts/nav.js"></script>
+    <script defer src="scripts/weather.js"></script>
 
 </head>
 <body>
@@ -62,21 +63,39 @@
         <div class="grid">
             
             <div id="hero-div">
-                <img id="index-logo" src="images/rye-chamber-logo-transparent.svg" alt="">
-                <img id="hero-img" src="images/mountain-town.jpeg" alt="Mountain town">
-                <h1 id="hero-welcome">Welcome!</h1>
-                <a class="hero-join-button button">Join the Chamber</a>
+              <img id="index-logo" src="images/rye-chamber-logo-transparent.svg" alt="Rye Chamber Logo">
+              <img id="hero-img" src="images/mountain-town.jpeg" alt="Mountain town">
+              <h1 id="hero-welcome">Welcome!</h1>
+              <a class="hero-join-button button" href="#join-index">Join the Chamber</a>
             </div>
-            
-            <div id = "release-index"><h2>New Release</h2></div>
-            <div id = "announcement-index"><h2>Announcement</h2></div>
-            <div id = "join-index"><h2>Join</h2></div>
-            <div id = "weather-index"><h2>Weather</h2></div>
-            <div id = "event-index"><h2>Event</h2></div>
+          
+            <div id = "release-index">
+              <h2>High School Band Concert</h2>
+              <img src="images/band.jpeg" alt="RHS Band">
+              <p>High school band concert featuring talented student musicians performing a variety of musical genres, including classical, jazz, and pop. An exciting evening of music and entertainment!</p>
+            </div>
+            <div id = "announcement-index">
+              <h2>High School Band Concert</h2>
+              <p>Stay informed about upcoming events and important announcements from the Rye Chamber of Commerce.</p>
+            </div>
+            <div id="join-index">
+              <h2>Join the Chamber</h2>
+              <img src="images/rye-chamber-logo-white-reverse.svg">
+              <p>Learn more about the benefits of becoming a member of the Rye Chamber of Commerce and how to join.</p>
+            </div>
+            <div id = "weather-index">
+              <h2>Today's Weather</h2>
+              <p id="weather-data">Loading...</p>
+            </div>
+            <div id = "event-index">
+              <h2>Upcoming Events</h2>
+              <p>Check out what's happening in the Rye area and plan your next outing!</p>
+            </div>
             <div id = "spotlight-index">
-                <div><h2>Spotlight 1</h2></div>
-                <div><h2>Spotlight 2</h2></div>
+              <div><h2>Spotlight Business 1</h2></div>
+              <div><h2>Spotlight Business 2</h2></div>
             </div>
+          </div>
         </div>
         <footer>
             <div>
