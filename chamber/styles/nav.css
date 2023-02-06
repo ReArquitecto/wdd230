@@ -7,9 +7,11 @@
 #nav {
     position: fixed;
     width : 100%;
+    z-index: 200;
     min-height: 3rem;
     background-color: var(--blue1);
     padding: 1px 1px 1px 1px;
+    margin-top: -1.5rem;
   }
 
 #in-menu-links {
@@ -46,8 +48,12 @@
     flex-direction: column;
   }
 
+  #large-screen-nav div a::after {
+    content: "";
+  }
   #large-screen-nav div a:hover::after {
     content: "";
+    transition-duration: 250ms;
     display: absolute;
     width: 100%;
     height: 2px;
