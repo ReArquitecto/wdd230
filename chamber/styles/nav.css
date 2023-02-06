@@ -54,7 +54,6 @@
   #large-screen-nav div a:hover::after {
     content: "";
     transition-duration: 250ms;
-    display: absolute;
     width: 100%;
     height: 2px;
     background-color: var(--yellow1);
