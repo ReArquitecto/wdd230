@@ -17,12 +17,13 @@ h2 {
 #hero-div {
     position: relative;
     overflow: hidden;
-    background-color: transparent;
-    background-image: url("../images/mountain-town.jpeg");
+    grid-template-rows: 1 / 2;
+    /* background-image: url("../images/mountain-town.jpeg"); */
     background-size: cover;
 }
 #index-logo {
-    z-index: 2;
+    z-index: 30;
+    position: absolute;
     margin: 1rem 5rem;
 }
 #hero-welcome {
@@ -56,6 +57,14 @@ div > img{
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+picture {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
 }
 @media screen and (min-width: 768px) {
 
