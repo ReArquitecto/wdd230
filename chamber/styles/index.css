@@ -27,7 +27,6 @@ h2 {
     margin: 1rem 5rem;
 }
 #hero-welcome {
-    position: absolute;
     margin: 0;
     z-index: 3;
     left: 1rem;
@@ -59,7 +58,6 @@ div > img{
     gap: 1rem;
 }
 picture {
-    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
