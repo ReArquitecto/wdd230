@@ -27,6 +27,8 @@ h2 {
     margin: 1rem 5rem;
 }
 #hero-welcome {
+    position: absolute;
+    font-size: 3rem;
     margin: 0;
     z-index: 3;
     left: 1rem;
@@ -46,7 +48,6 @@ div > img{
     gap: 1.5rem;
     grid-template-columns: 1fr;
 }
-
 #spotlight-index {
     display: flex;
     flex-direction: column;
@@ -62,15 +63,24 @@ picture {
     top: 0;
     left: 0;
     width: 100%;
-    object-fit: cover;
+    height: 100%;
 }
+source {
+    width: 100%;
+}
+.hero-pics {
+    width: 100%;
+}
+
+
+
 @media screen and (min-width: 768px) {
 
 
     /*grid with two columns*/
     .grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
     }
     #hero-div {
         grid-column: 2 / 3;
@@ -91,5 +101,9 @@ picture {
     #spotlight-index {
         grid-column: 3 / 4;
         grid-row: 1 / 4;
+    }
+    .hero-pics {
+        width: auto;
+        height: 100%;
     }
 }

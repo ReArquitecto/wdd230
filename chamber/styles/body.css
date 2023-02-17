@@ -60,8 +60,9 @@ span {
 .button:hover {
     background-color: var(--blue2);
 }
-.lonley-cont-box {
+.lonely-cont-box {
     border: .2rem solid var(--blue1);
+    padding: 1rem;
 }
 .sub-cont-box {
     border: .2rem solid var(--blue1);
