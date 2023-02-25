@@ -25,6 +25,8 @@ main div {
   background-color: rgb(197, 228, 255);
   border-radius: .6rem;
   padding: 1rem;
+
+  max-width: 80%;
 }
 .discover-banner {
   width: 100%;
@@ -36,4 +38,14 @@ main div {
   
 .lazy-loaded {
   opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .discover-banner {
+    height: 200px;
+  }
+  h1 {
+    top: 7rem;
+    font-size: 4rem;
+  }
 }

@@ -21,11 +21,11 @@
     display: flex; 
     flex-direction: row;
     margin-top: .7rem;
-}
-#mobile-logo {
-    margin-left: auto;
-    margin-right: auto;
-}
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
 
 /* larger screen*/
 
@@ -76,13 +76,13 @@
   }
 
 /* ---------Media Queries-----------*/
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 900px) {
     #mobile-nav {
       display: none;
     }
     #large-screen-nav {
         display: grid;
-        grid-template-columns: 220px auto 200px;
+        grid-template-columns: 200px auto 150px;
     }
     #large-screen-nav div {
         display: flex;
