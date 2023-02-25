@@ -34,6 +34,7 @@ main div {
 .lazy {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+  aspect-ratio: 2/3;
 }
   
 .lazy-loaded {
