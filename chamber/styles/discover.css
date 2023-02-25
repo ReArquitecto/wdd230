@@ -1,3 +1,39 @@
 #nav {
-    margin-top: 0;
+  margin-top: 0;
+}
+h1 {
+  position: absolute;
+  z-index: 1;
+  top: calc(100vw/4 - 12.5rem);
+  left: 3.5vw;
+  font-size: 8rem;
+  color: white;
+
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main div {
+  margin: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  gap: 1rem;
+
+  background-color: rgb(197, 228, 255);
+  border-radius: .6rem;
+  padding: 1rem;
+}
+.discover-banner {
+  width: 100%;
+}
+.lazy {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+  
+.lazy-loaded {
+  opacity: 1;
 }
