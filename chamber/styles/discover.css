@@ -27,9 +27,11 @@ main div {
   padding: 1rem;
 
   max-width: 80%;
+  aspect-ratio: 2/3;
 }
 .discover-banner {
   width: 100%;
+  aspect-ratio: 4/1;
 }
 .lazy {
   opacity: 0;
