@@ -17,7 +17,7 @@ fetch(url)
         <h2>${name}</h2>
         <h3>${sys.country}</h3>
       </div>
-      <div class="city-temp">${main.temp}°F</div>
+      <div class="city-temp">${Math.round(main.temp)}°F</div>
       <div>
         <img class="city-icon" src=${icon} alt=${weather[0]["main"]}>
         <figcaption class="description">${weather[0]["description"]}</figcaption>

@@ -17,9 +17,9 @@ h2 {
 #hero-div {
     position: relative;
     overflow: hidden;
-    grid-template-rows: 1 / 2;
+    max-height: 500px;
     /* background-image: url("../images/mountain-town.jpeg"); */
-    background-size: cover;
+    /* background-size: cover; */
 }
 #index-logo {
     z-index: 30;
@@ -62,8 +62,6 @@ picture {
     z-index: 1;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
 }
 source {
     width: 100%;
@@ -72,7 +70,12 @@ source {
     width: 100%;
 }
 
-
+.join-index-img {
+    max-width: 200px;
+}
+.kirkland-index {
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -87,6 +90,7 @@ source {
         grid-row: 1 / 2;
     }
     
+    
 }
 
 @media screen and (min-width: 1250px) {
@@ -96,7 +100,6 @@ source {
     #hero-div {
         grid-column: 2 / 3;
         grid-row: 1 / 3;
-        height: auto;
     }
     #spotlight-index {
         grid-column: 3 / 4;
@@ -104,6 +107,62 @@ source {
     }
     .hero-pics {
         width: auto;
-        height: 100%;
+    }
+    .kirkland-index {
+        display: block;
     }
 }
+
+/*Weather CSS*/
+.city-name {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .city-name h2 {
+    margin: 0;
+  }
+  
+  .city-name h3 {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  .city-temp {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .city-icon {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  
+  .city-humidity {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .city-wind {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .city-windchill {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
