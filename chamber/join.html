@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="styles/body.css">
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/join.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -30,13 +29,12 @@
             
             <div id="logo-and-mobile-menu">
                 <a href="javascript:void(0);" class="icon" onclick="hamburger()"><i class="fa fa-bars fa-lg"></i></a>
-                <a href="#" id="mobile-logo"><img src="images/rye-chamber-logo-words.webp" alt="Rye Chamber Logo"></a>
                 <a href=""><i class="fa fa-user fa-lg"></i></a>
             </div>
 
             <div id="in-menu-links">
                 <a href="../index.html" class="toggle-visibility">Assignments</a>
-                <a href="index.html">Home</a>
+                <a href="index.html" class="toggle-visibility">Home</a>
                 <a href="discover.html" class="toggle-visibility">Discover</a>
                 <a href="directory.html" class="toggle-visibility">Directory</a>
                 <a href="#" class="toggle-visibility">Join</a>
@@ -63,55 +61,91 @@
     </header>
 
 
-    <main>
-        <div>
-            <h1>Join our Chamber</h1>
-        </div>
+    <main class="fix-navbar">
         <form method="get" action="thankyou.html">
-            <div>
-                <label for="fname">First Name*</label>
-                <input type="text" id="fname" name="fname" placeholder="Your name..">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required autofocus>
+          
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+          
+            <label for="business-position">Business Position Title:</label>
+            <input type="text" id="business-position" name="business-position" pattern="[a-zA-Z\s\-]{7,}">
+          
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required>
+          
+            <label for="cell-phone">Cell Phone Number</label>
+            <input type="tel" id="cell-phone" name="cell-phone" required>
+          
+            <label for="business-name">Business Name/Title</label>
+            <input type="text" id="business-name" name="business-name" required>
+
+            <div class="membership-level-benefits">
+              <h4>Membership Level:</h4>
+              <table>
+                <tbody>
+                  <tr>
+                    <th>NP Membership</th>
+                    <td>No discount</td>
+                    <td>No discount</td>
+                    <td>No participation</td>
+                    <td>No featured ads</td>
+                    <td>No training</td>
+                    <td>No fee</td>
+                  </tr>
+                  <tr>
+                    <th>Bronze Membership</th>
+                    <td>15%</td>
+                    <td>10%</td>
+                    <td>No participation</td>
+                    <td>No featured ads</td>
+                    <td>No training</td>
+                    <td>$50/month</td>
+                  </tr>
+                  <tr>
+                    <th>Silver Membership</th>
+                    <td>25%</td>
+                    <td>15%</td>
+                    <td>Free participation</td>
+                    <td>No featured ads</td>
+                    <td>No training</td>
+                    <td>$100/month</td>
+                  </tr>
+                  <tr>
+                    <th>Gold Membership</th>
+                    <td>50%</td>
+                    <td>50%</td>
+                    <td>Free participation</td>
+                    <td>5</td>
+                    <td>1 per quarter</td>
+                    <td>$100/month</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="7">*Discounts apply only to eligible events and advertising</td>
+                  </tr>
+                </tfoot>
+              </table>
             </div>
-            <div>
-                <label for="lname">Last Name*</label>
-                <input type="text" id="lname" name="lname" placeholder="Your name..">
-            </div>
-            <div>
-                <label for="email">Email*</label>
-                <input type="email" id="email" name="email" placeholder="Your email..">
-            </div>
-            <div>
-                <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone" placeholder="Your phone number..">
-            </div>
-            <div>
-                <label for="business">Business</label>
-                <input type="text" id="business" name="business" placeholder="Your business..">
-            </div>
-            <div>
-                <label for="address">Address</label>
-                <input type="text" id="address" name="address" placeholder="Your address..">
-            </div>
-            <div>
-                <label for="city">City</label>
-                <input type="text" id="city" name="city" placeholder="Your city..">
-            </div>
-            <div>
-                <label for="state">State</label>
-                <input type="text" id="state" name="state" placeholder="Your state..">
-            </div>
-            <div>
-                <label for="zip">Zip</label>
-                <input type="text" id="zip" name="zip" placeholder="Your zip..">
-            </div>
-            <div>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Submit">
-            </div>
-        </form>
+          
+            <label for="membership-level">Membership Level</label>
+            <select id="membership-level" name="membership-level">
+              <option value="NP Membership">NP Membership</option>
+              <option value="Bronze Membership">Bronze Membership</option>
+              <option value="Silver Membership">Silver Membership</option>
+              <option value="Gold Membership">Gold Membership</option>
+            </select>              
+            <label for="business-description">Business Description</label>
+            <textarea id="business-description" name="business-description"></textarea>
+          
+            <input type="hidden" id="form-loaded-time" name="form-loaded-time" value="<?php echo date('Y-m-d H:i:s'); ?>">
+          
+            <input type="submit" value="Submit">
+          </form>
+          
+
     </main>
 
     <footer>
@@ -137,4 +171,4 @@
     <script src="scripts/main.js"></script>
 
 </body>
-</html>
+</html> -->

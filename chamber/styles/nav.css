@@ -3,6 +3,9 @@
 #mobile-nav {
     display: inline;
   }
+#nav {
+  margin-top: 0;
+}
 
 #nav {
     position: fixed;

@@ -103,3 +103,107 @@ span {
     width: 4.5rem;
     height: auto;
 }
+.thankyou-container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1rem;
+    text-align: center;
+  }
+
+/*Form CSS*/
+
+form {
+    max-width: 650px;
+    margin: 2rem auto;
+    background-color: var(--blue1);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  form label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 30rem;
+    font-size: 1.2rem;
+  }
+  
+  form input[type="submit"] {
+    background-color: var(--blue2);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 30rem;
+    font-size: 1.2rem;
+    background-color: white;
+  }
+  
+  form select option {
+    font-size: 1.2rem;
+    color: black;
+  }
+  
+  .membership-level-benefits {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .membership-level-benefits h4 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .membership-level-benefits li {
+    margin-bottom: 0.5rem;
+  }
+  
+/*Form Table*/
+.membership-level-benefits {
+    margin: 20px 0;
+    max-width: 200px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead {
+    font-weight: bold;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    border-bottom: 1px solid var(--gray1);
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--tan1);
+    color: var(--gray1);
+  }
