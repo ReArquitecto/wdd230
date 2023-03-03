@@ -1,7 +1,6 @@
 main {
     max-width: 1300px;
     margin: 0 auto;
-    margin-top: 1.5rem;
     padding: 2rem;
     padding-top: 2rem;
 }
@@ -20,6 +19,9 @@ h2 {
     max-height: 500px;
     /* background-image: url("../images/mountain-town.jpeg"); */
     /* background-size: cover; */
+}
+.current-date {
+    margin-top: 5rem;
 }
 #index-logo {
     z-index: 30;

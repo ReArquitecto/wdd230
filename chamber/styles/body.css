@@ -1,9 +1,9 @@
 :root {
-    --blue1: #0A67BE;
-    --blue2: #003F76;
-    --yellow1: #fffb00;
-    --tan1: #faebd7;
-    --gray1: #333333;
+  --blue1: #0A67BE;
+  --blue2: #003F76;
+  --yellow1: #fffb00;
+  --tan1: #faebd7;
+  --gray1: #333333;
 }
 
 html {
@@ -15,15 +15,16 @@ main {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    color : var(--gray1);
-    font-size: 1rem;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color : var(--gray1);
+  font-size: 1rem;
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: 500;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 h2 {
@@ -114,7 +115,7 @@ span {
 
 form {
     max-width: 650px;
-    margin: 2rem auto;
+    margin: 6rem auto;
     background-color: var(--blue1);
     padding: 1rem;
     border-radius: 10px;
@@ -180,6 +181,7 @@ form {
   }
   
 /*Form Table*/
+
 .membership-level-benefits {
     margin: 20px 0;
     max-width: 200px;
@@ -188,6 +190,7 @@ form {
   table {
     border-collapse: collapse;
     width: 100%;
+    border: white 3px solid;
   }
   
   thead {
