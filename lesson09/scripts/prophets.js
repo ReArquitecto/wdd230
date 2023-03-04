@@ -18,10 +18,17 @@ const displayProphets = (prophets) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
+      let birthdate = document.createElement('p');
+      let birthplace = document.createElement('p');
+      let orderNumber = document.createElement('p');
       let portrait = document.createElement('img');
   
       // Build the h2 content out to show the prophet's full name - finish the template string
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
+      birthdate.textContent = `Date of Birth: ${prophet.birthdate} - ${prophet.deathdate}`;
+      birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
+      orderNumber.textContent = `Prophet Number: ${prophet.order}`;
+      
   
       // Build the image portrait by setting all the relevant attribute
       portrait.setAttribute('src', prophet.imageurl);
@@ -32,6 +39,9 @@ const displayProphets = (prophets) => {
   
       // Append the section(card) with the created elements
       card.appendChild(h2);
+      card.appendChild(birthdate);
+      card.appendChild(birthplace);
+      card.appendChild(orderNumber);
       card.appendChild(portrait);
   
       cards.appendChild(card);
