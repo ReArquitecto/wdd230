@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rye Chamber of Commerce Home Page</title>
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/discover.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script defer src="scripts/nav.js"></script>
+    <script defer src="scripts/discover.js"></script>
+
+</head>
+<body>
+    <header>
+        <div id="nav">
+
+            <!-- Mobile nav links -->
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <section id="mobile-nav">
+            
+            <div id="logo-and-mobile-menu">
+                <a class="ham-menu" href="javascript:void(0);" class="icon" onclick="hamburger()"><i class="fa fa-bars fa-lg"></i></a>
+                <a class="mobile-account-btn" href=""><i class="fa fa-user fa-lg"></i></a>
+            </div>
+
+            <div id="in-menu-links">
+                <a href="../index.html" class="toggle-visibility">Assignments</a>
+                <a href="index.html">Home</a>
+                <a href="discover.html" class="toggle-visibility">Discover</a>
+                <a href="#" class="toggle-visibility">Directory</a>
+                <a href="join.html" class="toggle-visibility">Join</a>
+                <a href="Contact.html" class="toggle-visibility">Contact</a>
+                
+            </div>
+            </section>
+            
+            
+            <!-- Larger Screen nav links -->
+            <section id="large-screen-nav">
+                <a href="index.html" id="large-screen-logo"><img src="images/rye-chamber-logo-words.webp" alt="Rye Chamber Logo"></a>
+                <div>
+                    <a href="../index.html">Assignments</a>
+                    <a href="index.html">Home</a>
+                    <a href="discover.html">Discover</a>
+                    <a href="#" class="active">Directory</a>
+                    <a href="join.html">Join</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div><a href="">Login</a><a href=""><i class="fa fa-user fa-lg"></i></a></div>
+            </section>
+        </div>
+    </header>
+    <main>
+        <img class="lazy discover-banner" src="https://via.placeholder.com/1200x300.png" data-src="images/discover7.jpg" alt="Image 7">
+        <h1>Directory</h1>
+        <div>
+            <img class="lazy" src="https://via.placeholder.com/400x600.png" data-src="images/discover6.jpg" alt="Image 6">
+            Local Buisnesses
+        </div>
+        <div>
+            <img class="lazy" src="https://via.placeholder.com/400x600.png" data-src="images/discover1.jpg" alt="Image 1">
+            Rye Mountain Park
+        </div>
+        <div>
+            <img class="lazy" src="https://via.placeholder.com/400x600.png" data-src="images/discover2.jpg" alt="Image 2">
+            Nature Center
+        </div>
+        <div>
+            <img class="lazy" src="https://via.placeholder.com/400x600.png" data-src="images/discover3.jpg" alt="Image 3">
+            Rye Historical Society
+        </div>
+        <div>
+            <img class="lazy" src="https://via.placeholder.com/400x600.png" data-src="images/discover4.jpg" alt="Image 4">
+            Graneros Gorge
+        </div>
+        <div>
+            <img class="lazy" src="https://via.placeholder.com/400x600.png" data-src="images/discover5.jpg" alt="Image 5">
+            Town Square
+        </div>
+    </main>
+    <footer>
+      <div>
+          <h2>Rye Chamber of Commerce</h2>
+          <img class = "logo-footer" src="images/rye-chamber-logo-transparent.webp" alt="Rye Chamber Logo">
+      </div>
+      <div>
+          <p>123 Main Street</p>
+          <p>Rye, CO 81069</p>
+      </div>
+      <div>
+          <p>Phone: 123-456-7890</p>
+          <p>Email: contact@Rye.org</p>
+      </div>
+      <div class="social-media-footer">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-youtube"></i>
+      </div>
+  </footer>
+</body>
+</html>

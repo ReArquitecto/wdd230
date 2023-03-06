@@ -1,0 +1,87 @@
+{
+    "companies": [
+      {
+        "name": "Acme Industries",
+        "address": "123 Main Street, Anytown USA",
+        "phone": "(555) 123-4567",
+        "website": "http://www.acmeindustries.com",
+        "image": "acme.png",
+        "membership": "gold",
+        "description": "Acme Industries specializes in manufacturing top-quality widgets and gadgets for businesses of all sizes."
+      },
+      {
+        "name": "Bayside Technologies",
+        "address": "456 Ocean Avenue, Seaside USA",
+        "phone": "(555) 456-7890",
+        "website": "http://www.baysidetechnologies.com",
+        "image": "bayside.png",
+        "membership": "gold",
+        "description": "Bayside Technologies offers cutting-edge software solutions for businesses looking to stay ahead of the curve."
+      },
+      {
+        "name": "Creative Marketing Solutions",
+        "address": "789 Elm Street, Anytown USA",
+        "phone": "(555) 789-0123",
+        "website": "http://www.creativemarketingsolutions.com",
+        "image": "cms.png",
+        "membership": "silver",
+        "description": "Creative Marketing Solutions provides marketing and branding services to help businesses stand out from the crowd."
+      },
+      {
+        "name": "Delta Plumbing and Heating",
+        "address": "321 Maple Avenue, Anytown USA",
+        "phone": "(555) 234-5678",
+        "website": "http://www.deltaplumbing.com",
+        "image": "delta.png",
+        "membership": "bronze",
+        "description": "Delta Plumbing and Heating is your one-stop-shop for all your plumbing and heating needs."
+      },
+      {
+        "name": "Eagle Eye Security",
+        "address": "555 Pine Street, Anytown USA",
+        "phone": "(555) 345-6789",
+        "website": "http://www.eagleeyesecurity.com",
+        "image": "eagleeye.png",
+        "membership": "silver",
+        "description": "Eagle Eye Security provides top-notch security solutions for businesses and individuals."
+      },
+      {
+        "name": "Foothills Bakery",
+        "address": "777 Mountain Road, Anytown USA",
+        "phone": "(555) 456-1234",
+        "website": "http://www.foothillsbakery.com",
+        "image": "foothills.png",
+        "membership": "bronze",
+        "description": "Foothills Bakery offers delicious baked goods using only the finest ingredients."
+      },
+      {
+        "name": "Global Logistics Inc.",
+        "address": "888 Main Street, Anytown USA",
+        "phone": "(555) 789-1234",
+        "website": "http://www.globallogistics.com",
+        "image": "global.png",
+        "membership": "gold",
+        "description": "Global Logistics Inc. provides efficient and cost-effective shipping solutions for businesses of all sizes."
+      },
+      {
+        "name": "Harbor Insurance Agency",
+        "address": "999 Bay Road, Anytown USA",
+        "phone": "(555) 234-5678",
+        "website": "http://www.harborinsurance.com",
+        "image": "harbor.png",
+        "membership": "silver",
+        "description": "Harbor Insurance Agency provides comprehensive insurance coverage for businesses and individuals."
+      },
+      {
+        "name": "Innovative Designs",
+        "address": "101 Innovation Way, Anytown USA",
+        "phone": "(555) 345-6789",
+        "website": "http://www.innovativedesigns.com",
+        "image": "innovative.png",
+        "membership": "bronze",
+        "description": "Innovative Designs creates cutting-edge products and solutions to help businesses stay ahead of the competition."
+    }
+    ]
+}
+        
+  

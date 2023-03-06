@@ -25,10 +25,10 @@ const displayProphets = (prophets) => {
   
       // Build the h2 content out to show the prophet's full name - finish the template string
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
-      birthdate.textContent = `Date of Birth: ${prophet.birthdate} - ${prophet.deathdate}`;
+      birthdate.textContent = `${prophet.birthdate} - ${prophet.death}`;
       birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
       orderNumber.textContent = `Prophet Number: ${prophet.order}`;
-      
+
   
       // Build the image portrait by setting all the relevant attribute
       portrait.setAttribute('src', prophet.imageurl);
