@@ -249,16 +249,16 @@ form {
     justify-content: space-between;
     gap: 20px;
     width: 100%;
-    padding: 0 20px;
   }
 
   .card {
-    background: linear-gradient(to top, rgb(29, 100, 207), var(--blue2));
+    background: linear-gradient(to top, rgb(56, 114, 202), rgb(21, 83, 176));
     padding: 4rem;
     border-radius: 3rem;
     color: white;
     text-align: center;
     max-width: 300px;
+    margin: 0 auto;
   }
 
   .card img {
