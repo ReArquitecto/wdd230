@@ -261,6 +261,10 @@ form {
     text-align: center;
   }
 
+  .card img {
+    width: 100%;
+  }
+
   @media (max-width: 767px) {
     .cards section {
       flex-basis: calc(50% - 10px);

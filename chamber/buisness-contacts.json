@@ -14,7 +14,7 @@
         "address": "456 Ocean Avenue, Seaside USA",
         "phone": "(555) 456-7890",
         "website": "http://www.baysidetechnologies.com",
-        "image": "bayside.png",
+        "image": "bayside.webp",
         "membership": "gold",
         "description": "Bayside Technologies offers cutting-edge software solutions for businesses looking to stay ahead of the curve."
       },
@@ -23,7 +23,7 @@
         "address": "789 Elm Street, Anytown USA",
         "phone": "(555) 789-0123",
         "website": "http://www.creativemarketingsolutions.com",
-        "image": "cms.png",
+        "image": "cms.webp",
         "membership": "silver",
         "description": "Creative Marketing Solutions provides marketing and branding services to help businesses stand out from the crowd."
       },
@@ -32,7 +32,7 @@
         "address": "321 Maple Avenue, Anytown USA",
         "phone": "(555) 234-5678",
         "website": "http://www.deltaplumbing.com",
-        "image": "delta.png",
+        "image": "delta.webp",
         "membership": "bronze",
         "description": "Delta Plumbing and Heating is your one-stop-shop for all your plumbing and heating needs."
       },
@@ -41,7 +41,7 @@
         "address": "555 Pine Street, Anytown USA",
         "phone": "(555) 345-6789",
         "website": "http://www.eagleeyesecurity.com",
-        "image": "eagleeye.png",
+        "image": "eagleeye.webp",
         "membership": "silver",
         "description": "Eagle Eye Security provides top-notch security solutions for businesses and individuals."
       },
@@ -50,7 +50,7 @@
         "address": "777 Mountain Road, Anytown USA",
         "phone": "(555) 456-1234",
         "website": "http://www.foothillsbakery.com",
-        "image": "foothills.png",
+        "image": "foothills.webp",
         "membership": "bronze",
         "description": "Foothills Bakery offers delicious baked goods using only the finest ingredients."
       },
@@ -59,7 +59,7 @@
         "address": "888 Main Street, Anytown USA",
         "phone": "(555) 789-1234",
         "website": "http://www.globallogistics.com",
-        "image": "global.png",
+        "image": "global.jpg",
         "membership": "gold",
         "description": "Global Logistics Inc. provides efficient and cost-effective shipping solutions for businesses of all sizes."
       },
@@ -68,7 +68,7 @@
         "address": "999 Bay Road, Anytown USA",
         "phone": "(555) 234-5678",
         "website": "http://www.harborinsurance.com",
-        "image": "harbor.png",
+        "image": "harbor.webp",
         "membership": "silver",
         "description": "Harbor Insurance Agency provides comprehensive insurance coverage for businesses and individuals."
       },
@@ -77,7 +77,7 @@
         "address": "101 Innovation Way, Anytown USA",
         "phone": "(555) 345-6789",
         "website": "http://www.innovativedesigns.com",
-        "image": "innovative.png",
+        "image": "innovative.webp",
         "membership": "bronze",
         "description": "Innovative Designs creates cutting-edge products and solutions to help businesses stay ahead of the competition."
     }
