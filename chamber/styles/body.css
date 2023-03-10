@@ -237,8 +237,8 @@ form {
   }
   /*Directory*/
   .directory-heading {
-    color: #cfcfcf;
-    text-shadow: #004a7b 1px 1px 5px;
+    color: #e7e7e7;
+    text-shadow: #004a7b 1px 1px 10px;
   }
 
   .cards {

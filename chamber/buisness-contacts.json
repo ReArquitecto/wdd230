@@ -5,7 +5,7 @@
         "address": "123 Main Street, Anytown USA",
         "phone": "(555) 123-4567",
         "website": "http://www.acmeindustries.com",
-        "image": "acme.png",
+        "image": "images/acme.webp",
         "membership": "gold",
         "description": "Acme Industries specializes in manufacturing top-quality widgets and gadgets for businesses of all sizes."
       },
