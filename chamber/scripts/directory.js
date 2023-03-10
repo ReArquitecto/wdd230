@@ -27,7 +27,7 @@ function displayCompanies(companies) {
       address.textContent = company.address;
   
       // Build the image portrait by setting all the relevant attribute
-      logo.setAttribute('src', company.image);
+      logo.setAttribute('src', `images/${company.image}`);
       logo.setAttribute('alt', `Logo of ${company.name}`);
       logo.setAttribute('loading', 'lazy');
   
