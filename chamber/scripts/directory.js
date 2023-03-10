@@ -1,42 +1,47 @@
-async function getBusinessData() {
-    const response = await fetch("https://rearquitecto.github.io/wdd230/chamber/buisness-contacts.json");
+const url = 'https://rearquitecto.github.io/wdd230/chamber/buisness-contacts.json';
+
+async function getcompaniesData() {
+    const response = await fetch(url);
     const data = await response.json();
-    displayBusinesses(data);
+    console.table(data.companies);
+    displayCompanies(data.companies);
   }
   
-  function displayBusinesses(data) {
-    const cards = document.querySelector(".cards");
-    
-    data.forEach((business) => {
-      let card = document.createElement("section");
-      let h2 = document.createElement("h2");
-      let pAddress = document.createElement("p");
-      let pPhone = document.createElement("p");
-      let pWebsite = document.createElement("p");
-      let pMembership = document.createElement("p");
-      let pDescription = document.createElement("p");
-      let img = document.createElement("img");
-      
-      h2.textContent = business.name;
-      pAddress.textContent = `Address: ${business.address}`;
-      pPhone.textContent = `Phone: ${business.phone}`;
-      pWebsite.innerHTML = `Website: <a href="${business.website}" target="_blank">${business.website}</a>`;
-      pMembership.textContent = `Membership Level: ${business.membership}`;
-      pDescription.textContent = business.description;
-      img.src = `images/${business.image}`;
-      img.alt = `Logo for ${business.name}`;
-      
+function displayCompanies(companies) {
+    const cards = document.querySelector('section.cards'); // select the output container element
+  
+    companies.forEach((company) => {
+      // Create elements to add to the div.cards element
+      let logo = document.createElement('img');
+      let card = document.createElement('section');
+      card.classList.add("card");
+      let h2 = document.createElement('h2');
+      let email = document.createElement('p');
+      let phone = document.createElement('p');
+      let address = document.createElement('p');
+  
+      // Build the h2 content out to show the p full name - finish the template string
+      h2.textContent = `${company.name}`;
+      email.textContent = `${company.email}`;
+      phone.textContent = `Phone: ${company.phone}`;
+      address.textContent = `Address: ${company.address}`;
+  
+      // Build the image portrait by setting all the relevant attribute
+      logo.setAttribute('src', company.logo);
+      logo.setAttribute('alt', `Logo of ${company.name}`);
+      logo.setAttribute('loading', 'lazy');
+      logo.setAttribute('width', '340');
+      logo.setAttribute('height', '440');
+  
+      // Append the section(card) with the created elements
+      card.appendChild(logo);
       card.appendChild(h2);
-      card.appendChild(img);
-      card.appendChild(pAddress);
-      card.appendChild(pPhone);
-      card.appendChild(pWebsite);
-      card.appendChild(pMembership);
-      card.appendChild(pDescription);
-      
-      cards.appendChild(card);
-    });
-  }
+      card.appendChild(phone);
+      card.appendChild(address);
   
-  getBusinessData();
+      cards.appendChild(card);
+    } // end of forEach loop
+  )} // end of function expression
+
+getcompaniesData();
   

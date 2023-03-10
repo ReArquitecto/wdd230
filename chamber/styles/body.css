@@ -242,42 +242,25 @@ form {
   }
 
   .cards {
+    margin: 2rem;
     display: flex;
+    background-color: transparent;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .cards section {
-    flex: 1 0 calc(33.33% - 20px);
-    margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .cards section img {
-    display: block;
+    gap: 20px;
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    padding: 0 20px;
   }
-  
-  .cards section h2 {
-    font-size: 1.5rem;
-    margin: 10px;
+
+  .card {
+    flex: 1 1 300px;
+    background-color: var(--blue1);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
   }
-  
-  .cards section p {
-    font-size: 1.2rem;
-    margin: 10px;
-  }
-  
-  .cards section p a {
-    color: #0077cc;
-  }
-  
+
   @media (max-width: 767px) {
     .cards section {
       flex-basis: calc(50% - 10px);
