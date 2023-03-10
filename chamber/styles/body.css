@@ -255,14 +255,16 @@ form {
   .card {
     flex: 1 1 300px;
     background: linear-gradient(to top, rgb(29, 100, 207), var(--blue2));
-    padding: 2rem;
-    border-radius: 1rem;
+    padding: 4rem;
+    border-radius: 4rem;
     color: white;
     text-align: center;
+    max-width: 500px;
   }
 
   .card img {
     width: 100%;
+    border-radius: 1rem;
   }
 
   @media (max-width: 767px) {
