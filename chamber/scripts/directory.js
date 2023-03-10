@@ -29,8 +29,6 @@ function displayCompanies(companies) {
       // Build the image portrait by setting all the relevant attribute
       logo.setAttribute('src', `images/${company.image}`);
       logo.setAttribute('alt', `Logo of ${company.name}`);
-      logo.setAttribute('width', '400');
-      logo.setAttribute('height', '300');
       logo.setAttribute('loading', 'lazy');
   
       // Append the section(card) with the created elements
