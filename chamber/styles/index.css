@@ -128,23 +128,25 @@ source {
     display:flex;
     flex-direction: row;
     /* gap: .5rem; */
-    background-color: rgb(125, 175, 219);
+    background-color: rgb(94, 150, 199);
     border-radius: 2rem;
 }
 .split-left {
-    padding: 2rem;
+    padding: 1.5rem;
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
 
-    /* background-color: rgb(145, 190, 229); */
     border-radius: 2rem;
+    color: white;
 }
 .split-right {
     padding: 3rem;
     margin-right: auto;
 
     color: white;
-    background-color: rgb(77, 149, 211);
+    background-color: rgb(57, 131, 196);
     border-radius: 2rem;
 
 }
