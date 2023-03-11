@@ -13,19 +13,19 @@ fetch(url)
     const weatherhere = document.getElementById("weather-data");    
 
     const weatherhtml = 
-      `<div class="city-name">
-        <h2>${name}</h2>
-        <h3>${sys.country}</h3>
-      </div>
-      <div class="city-temp">${Math.round(main.temp)}°F</div>
-      <div>
-        <img class="city-icon" src=${icon} alt=${weather[0]["main"]}>
-        <figcaption class="description">${weather[0]["description"]}</figcaption>
-      </div>
-      <div class="city-humidity">Humidity: ${main.humidity}%</div>
-      <div class="city-wind">Wind: ${data.wind.speed} mph</div>
-      <div class="city-windchill">Wind Chill: ${Math.round(35.74 + 0.6215 * main.temp - 35.75 * Math.pow(data.wind.speed, 0.16) + 0.4275 * main.temp * Math.pow(data.wind.speed, 0.16))}°F</div>`;
-
+      `
+      <div class="split">
+        <div class="split-left">
+          <div class="city-temp">${Math.round(main.temp)}°F</div>
+          <img class="city-icon" src=${icon} alt=${weather[0]["main"]}>
+          <figcaption class="description">${weather[0]["description"]}</figcaption>
+        </div>
+        <div class="split-right">
+          <div class="city-humidity">Humidity: ${main.humidity}%</div>
+          <div class="city-wind">Wind: ${Math.round(data.wind.speed)} mph</div>
+          <div class="city-windchill">Wind Chill: ${Math.round(35.74 + 0.6215 * main.temp - 35.75 * Math.pow(data.wind.speed, 0.16) + 0.4275 * main.temp * Math.pow(data.wind.speed, 0.16))}°F</div>
+        </div>
+      </div>`;
     weatherhere.innerHTML = weatherhtml;
     document.getElementById("weather-data").after(weatherhere);
     
